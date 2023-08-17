@@ -27,7 +27,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:3000/connect", {
+    let response = await fetch("https://portfolio-anubrata.vercel.app/connect", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
