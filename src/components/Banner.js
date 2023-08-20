@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+// import headerImg from "../assets/img/header-img.svg";
 import profileImg from "../assets/img/profile.png";
 
 import { ArrowRightCircle } from 'react-bootstrap-icons';
@@ -59,7 +59,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Anubrata `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]' ><span className="wrap">{text}</span></span></h1>
+                <h1 style={{fontSize:'49px'}}>{`Hi! I'm Anubrata `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]' ><span className="wrap">{text}</span></span></h1>
                   <p> Fresher | Aspiring Web Developer | Spring Boot | Java | I am
                   eager to leverage my skills and contribute to innovative
                   software solutions. Quick learner, team player, and excellent

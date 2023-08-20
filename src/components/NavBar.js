@@ -4,12 +4,14 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import { useState, useEffect } from "react";
 import logo from '../assets/img/logo.svg';
-import mylogo from '../assets/img/mylogo.svg';
+// import mylogo from '../assets/img/mylogo.svg';
 import mylogo1 from '../assets/img/mylogo1.svg';
 
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.jfif';
+
 import { HashLink } from 'react-router-hash-link';
 import {
     BrowserRouter as Router
@@ -59,6 +61,7 @@ export const NavBar = () => {
                                 <a href="https://www.linkedin.com/in/anubrata-das-17b302213/" target='blank'><img src={navIcon1} alt="" /></a>
                                 <a href="https://www.facebook.com/anubrata.das.50/" target='blank'><img src={navIcon2} alt="" /></a>
                                 <a href="https://www.instagram.com/anubrata_450/" target='blank'><img src={navIcon3} alt="" /></a>
+                                <a href="https://github.com/Anubrata-Das" target='blank'><img src={navIcon4} alt="" /></a>
                             </div>
                             <HashLink to='#connect'>
                                 <button className="vvd"><span>Let’s Connect</span></button>
