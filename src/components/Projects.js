@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import examimg from "../assets/img/exam.png";
 import scm from "../assets/img/scm.png";
 import shopping from "../assets/img/shopping.png";
+import pretty from "../assets/img/project_4.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -37,6 +38,13 @@ export const Projects = () => {
       links:"",
       vlink:"https://drive.google.com/file/d/1i2moUZZa5IJz1kl2MhCY6SRdo2vzSGvn/view?usp=drive_link"
     },
+    {
+      title: "Prettypetals",
+      description: "It's a website for purchasing flowers and cakes online",
+      imgUrl: pretty,
+      links:"https://anubrata-das.github.io/Right_shopping_task/",
+      vlink:""
+    },
   ];
 
   return (
@@ -63,7 +71,7 @@ export const Projects = () => {
                   </Nav>
 
 
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""} >
 
                     <Tab.Pane eventKey="first">
                       <Row>
@@ -81,10 +89,10 @@ export const Projects = () => {
                     </Tab.Pane>
 
 
-                    <Tab.Pane eventKey="second">
+                    <Tab.Pane eventKey="second" style={{padding:'0 140px'}}>
                       <div className="edu" style={{display:'flex',justifyContent:'center',alignItems:'center',color:'#B8B8B8'}}>
                         <ul>
-                        <h5><li>Completed B.Tech from Government College of Engineering and Leather Technology in Computer Science & Engineering</li></h5>
+                        <h5><li>Completed B.Tech from Government College of Engineering and Leather Technology in <mark> Computer Science & Engineering</mark></li></h5>
                         <h5><li>Has Done 10<sup>th</sup> from Chandpara Bani Vidya Bithi (H.S) School in 2016-2018 with 90% marks </li></h5>
                         <h5><li>Has Done 10<sup>th</sup> from Chandpara Bani Vidya Bithi (H.S) School in 2016 with 91% marks </li></h5>
                         </ul>
@@ -92,15 +100,26 @@ export const Projects = () => {
                     </Tab.Pane>
 
 
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="third" style={{padding:'0 140px'}}>
                     <div className="ach" style={{display:'flex',justifyContent:'center',alignItems:'center',color:'#B8B8B8'}}>
                         <ul>
-                        <h3>Internships</h3>
+                        <h3>Experience</h3>
                         <div className="st" style={{margin:'10px',padding:'28px'}}>
-                        <h5><li>PHN Technology: Completed the internship on Backend Spring Boot & Spring MVC</li></h5>
+                        <h5><li><mark>RIGHT SHOPPING PVT LTD:</mark> Lead and contribute to the development of responsive web applications using HTML, CSS, and JavaScript to create
+visually appealing and user-friendly interfaces.</li></h5>
+                        <h5><li>Created fluid and responsive layouts, ensuring websites adapt seamlessly to different screen sizes for mobile accessibility</li></h5>
+                        {/* <h5><li>5 Star Coder at Hacker Rank and earned Gold Badge</li></h5> */}
+                        </div>
+                        <h3>Others</h3>
+                        <div className="st" style={{margin:'10px',padding:'28px'}}>
                         <h5><li>Cleared the First Round of the National Engineering Olympiad</li></h5>
                         <h5><li>5 Star Coder at Hacker Rank and earned Gold Badge</li></h5>
+                        <h5><li>2022 4th Team in MLH Hack4Bengal Hackathon</li></h5>
+                        <h5><li>2020 FaceBook HackerCup Qualified</li></h5>
+                        {/* <h5><li>5 Star Coder at Hacker Rank and earned Gold Badge</li></h5> */}
                         </div>
+                          
+                    
                         </ul>
                       </div>
                     </Tab.Pane>

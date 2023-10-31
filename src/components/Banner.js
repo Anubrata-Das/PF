@@ -60,14 +60,14 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1 style={{fontSize:'49px'}}>{`Hi! I'm Anubrata `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]' ><span className="wrap">{text}</span></span></h1>
-                  <p> Fresher | Aspiring Web Developer | Spring Boot | Java | I am
+                  <p> Frontend Developer | Aspiring Web Developer | Spring Boot | Java | I am
                   eager to leverage my skills and contribute to innovative
                   software solutions. Quick learner, team player, and excellent
                   problem solver with a strong desire to continuously enhance
                   my technical expertise.</p>
 
           
-                  <a className="tagline" href="https://drive.google.com/file/d/127gky0VUctMw7CKyhn87x3JsBSWz4xkW/view?usp=sharing" target="blank">
+                  <a className="tagline" href="https://drive.google.com/file/d/1R2nhL7MHwTQ5dZnGx4jb3CjQKaKraEOq/view?usp=sharing" target="blank">
                     Get Resume <ArrowRightCircle size={25} />
                                 {/* <button className="vvd"><span>Get My Resume <ArrowRightCircle size={25} /></span></button> */}
                   </a>
