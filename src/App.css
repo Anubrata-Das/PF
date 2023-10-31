@@ -515,6 +515,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.st{
+  margin: 10px;
+  padding: 28px;
+}
+.edu li{
+  font-size: 16px;
+}
+@media (min-width:1000px){
+  .sectab{
+    padding: 0 140px;
+  }
+  .thirdtab{
+    padding: 0 150px;
+  }
+}
+@media (max-width:480px){
+  .st{
+    margin-right: 20px;
+    margin: 0;
+    padding: 8px;
+  }
+  .st h5 li{
+    font-size: 15px;
+  }
+  .edu li{
+    margin: 0 -5px;
+  }
+  
+  .project .nav.nav-pills .nav-link{
+    font-size: 9px;
+  }
+}
 
 /************ Projects Css ************/
 .contact {

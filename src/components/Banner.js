@@ -59,7 +59,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1 style={{fontSize:'49px'}}>{`Hi! I'm Anubrata `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]' ><span className="wrap">{text}</span></span></h1>
+                <h1 style={{fontSize:'49px'}}>{`Hi! I'm Anubrata `}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]' ><span className="wrap">{text}</span></span></h1>
                   <p> Frontend Developer | Aspiring Web Developer | Spring Boot | Java | I am
                   eager to leverage my skills and contribute to innovative
                   software solutions. Quick learner, team player, and excellent

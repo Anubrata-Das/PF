@@ -60,13 +60,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link  eventKey="first" style={{fontSize:'15px'}}>Projects</Nav.Link>
+                      <Nav.Link className="navlinks"  eventKey="first" >Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second" style={{fontSize:'15px'}}>Education</Nav.Link>
+                      <Nav.Link className="navlinks" eventKey="second" >Education</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third" style={{fontSize:'15px'}}>Achievements</Nav.Link>
+                      <Nav.Link className="navlinks" eventKey="third" >Achievements</Nav.Link>
                     </Nav.Item>
                   </Nav>
 
@@ -89,7 +89,7 @@ export const Projects = () => {
                     </Tab.Pane>
 
 
-                    <Tab.Pane eventKey="second" style={{padding:'0 140px'}}>
+                    <Tab.Pane eventKey="second" className="sectab">
                       <div className="edu" style={{display:'flex',justifyContent:'center',alignItems:'center',color:'#B8B8B8'}}>
                         <ul>
                         <h5><li>Completed B.Tech from Government College of Engineering and Leather Technology in <mark> Computer Science & Engineering</mark></li></h5>
@@ -100,18 +100,18 @@ export const Projects = () => {
                     </Tab.Pane>
 
 
-                    <Tab.Pane eventKey="third" style={{padding:'0 140px'}}>
+                    <Tab.Pane eventKey="third" className="thirdtab">
                     <div className="ach" style={{display:'flex',justifyContent:'center',alignItems:'center',color:'#B8B8B8'}}>
                         <ul>
                         <h3>Experience</h3>
-                        <div className="st" style={{margin:'10px',padding:'28px'}}>
+                        <div className="st">
                         <h5><li><mark>RIGHT SHOPPING PVT LTD:</mark> Lead and contribute to the development of responsive web applications using HTML, CSS, and JavaScript to create
 visually appealing and user-friendly interfaces.</li></h5>
                         <h5><li>Created fluid and responsive layouts, ensuring websites adapt seamlessly to different screen sizes for mobile accessibility</li></h5>
                         {/* <h5><li>5 Star Coder at Hacker Rank and earned Gold Badge</li></h5> */}
                         </div>
                         <h3>Others</h3>
-                        <div className="st" style={{margin:'10px',padding:'28px'}}>
+                        <div className="st" >
                         <h5><li>Cleared the First Round of the National Engineering Olympiad</li></h5>
                         <h5><li>5 Star Coder at Hacker Rank and earned Gold Badge</li></h5>
                         <h5><li>2022 4th Team in MLH Hack4Bengal Hackathon</li></h5>
